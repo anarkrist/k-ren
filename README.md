@@ -8,7 +8,7 @@ A .env file in the project directory will serve as a configuration file for feat
 
 As of now the token can be configured by creating a `.env` file (this will be hidden on *nix systems) and setting `BOT_TOKEN`'s value;
 
-`BOT_TOKEN='token'
+`BOT_TOKEN='token'`
 
 # Dependancies
 [Node.js](https://www.nodejs.org/) (runtime, obviously)
