@@ -3,12 +3,10 @@ Kris' Discord bot that can do pretty much anything any other bot can do
 
 It's also been revived from 2 year old code so it needs major reworking to be like actually good even just as a template
 
-# .env file
-A .env file in the project directory will serve as a configuration file for features added going forward (see TODO.md)
+# config.json
+A config.json file in the project directory will serve as a configuration file for this bot.
 
-As of now the token can be configured by creating a `.env` file (this will be hidden on *nix systems) and setting `BOT_TOKEN`'s value;
-
-`BOT_TOKEN='token'`
+This is where you need to put your bot token currently, and in the future will also configure other options (see TODO.md)
 
 # Dependencies
 [Node.js](https://www.nodejs.org/) (runtime, obviously)
@@ -16,7 +14,3 @@ As of now the token can be configured by creating a `.env` file (this will be hi
 [Discord.js](https://github.com/hydrabolt/discord.js/) 
 
 `npm install discord.js` in project directory
-
-[DotEnv](https://github.com/motdotla/dotenv)
-
-`npm install dotenv` in project directory

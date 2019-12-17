@@ -1,10 +1,8 @@
 #To do
-- clean up this code it looks like ass
+- ~~clean up this code it looks like ass~~ - Mostly done I would say
 
-- make prefix configurable in .env
+- ~~make prefix configurable in config.json~~ - DONE!
 
-- make embed trim colour configurable in .env?
+- make embed trim colour configurable in config.json? - requires making the commands actually use embeds
 
-- make an actual help command instead of what it is now
-
-- other shit im fucking tired rn
+- make an actual help command that updates automatically

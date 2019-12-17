@@ -1,13 +1,14 @@
 {
   "name": "k-ren",
-  "version": "0.3",
+  "version": "0.75",
   "description": "Kris' Discord bot.",
-  "main": "K-ren.js",
+  "main": "k-ren.js",
   "author": "winframe",
   "license": "Apache-2.0",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "dotenv": "^8.2.0"
+    "enmap": "^5.2.3",
+    "fs": "0.0.1-security"
   },
   "devDependencies": {
     "eslint": "^6.7.2"
