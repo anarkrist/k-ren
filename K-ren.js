@@ -20,7 +20,7 @@ client.on("ready", function() {
 client.updateProfile = function() {
     //Define status messages...
 	var statusMsgs = [
-	    "with Moon",
+        "with Moon",
 		"Solitaire",
 		"SimCity 2000",
 		"PC Speaker Beeps",
@@ -38,7 +38,7 @@ client.on('message', message => {
               color: 0x39e600,
               fields: [
                   {
-                      name: "Please do not mention me,\nI do not have capabilites beyond displaying this text...",
+                      name: "Please do not mention me,\nI do not have capabilities beyond displaying this text...",
                       inline: true,
 
                   }
@@ -82,9 +82,9 @@ client.on('message', message => {
               color: 0x39e600,
               title: "Avatar Retriever",
               description: "Utility to retrieve a users avatar from Discord.",
-			  image: {
-				  url: message.author.displayAvatarURL
-			  }
+              image: {
+              url: message.author.displayAvatarURL
+              }
           }
       })
   }
@@ -97,13 +97,13 @@ client.on('message', message => {
 		url:
           "https://cdn.discordapp.com/avatars/586749049366118413/a1ee5e4726e3a63d47df0271024b7960.png?size=256",
         },
-	  fields: [
-	  {
-		  name: "This channel has a unique identifier of...",
-		  value: message.channel.id,
-		  inline: true,
-	  },
-	  ],
+      fields: [
+      {
+          name: "This channel has a unique identifier of...",
+          value: message.channel.id,
+          inline: true,
+      },
+      ],
     }})
   }
   else if (message.content === './botinfo') {

@@ -10,7 +10,7 @@ As of now the token can be configured by creating a `.env` file (this will be hi
 
 `BOT_TOKEN='token'`
 
-# Dependancies
+# Dependencies
 [Node.js](https://www.nodejs.org/) (runtime, obviously)
 
 [Discord.js](https://github.com/hydrabolt/discord.js/) 
