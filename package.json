@@ -1,0 +1,13 @@
+{
+  "name": "k-ren",
+  "version": "0.3",
+  "description": "Kris' Discord bot.",
+  "main": "K-ren.js",
+  "author": "winframe",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2"
+  }
+}
