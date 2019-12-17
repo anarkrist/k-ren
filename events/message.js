@@ -3,7 +3,7 @@ module.exports = (client, message) => {
     //ignore other bots
     if (message.author.bot) return;
 
-    //ignore messages that don't start with the prefix in conf.json
+    //ignore messages that don't start with the prefix in config.json
     if (message.content.indexOf(client.cjson.prefix) !== 0) return;
 
     //standard argument/command name definition

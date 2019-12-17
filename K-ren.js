@@ -9,7 +9,7 @@ const enmap = require("Enmap");
 const Discord = require("discord.js");
 //create instance of client
 const client = new Discord.Client();
-//import conf.json
+//import config.json
 const cjson = require("./config.json")
 client.cjson = cjson;
 
