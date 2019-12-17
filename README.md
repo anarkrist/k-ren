@@ -1,4 +1,6 @@
 # K-ren
+<img src="https://i.imgur.com/Wkwqeh7.png" alt="K-ren!" width="200"/>
+
 Kris' Discord bot that can do pretty much anything any other bot can do
 
 It's also been revived from 2 year old code so it needs major reworking to be like actually good even just as a template
