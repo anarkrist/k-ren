@@ -18,3 +18,7 @@ This is where you need to put your bot token currently, and in the future will a
 [Discord.js](https://github.com/hydrabolt/discord.js/) 
 
 `npm install discord.js` in project directory
+
+# Licence
+K-ren is licenced under the Apache 2.0 Licence in full, except for the art included in the README header, which retains  
+copyright with the artist and the characters creator (albeit both parties are both pretty relaxed on copyright.)
